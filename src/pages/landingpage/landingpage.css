@@ -1,0 +1,38 @@
+.landingpage {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+
+  background-color: #44eebb;
+}
+.bannar-msg {
+  margin: 25vh;
+  text-align: center;
+}
+.bannar {
+  font-size: 5rem;
+  color: darkslategrey;
+}
+.caption {
+  font-size: 2.5rem;
+  color: darkslategrey;
+}
+.btn-div {
+  margin-top: 7vh;
+}
+.land-btn {
+  margin-right: 3vw;
+  margin-left: 3vw;
+  height: 6.5vh;
+  width: 9vw;
+  border: 3px solid darkslategrey;
+  background-color: #44eebb;
+  color: darkslategrey;
+  font-weight: 700;
+}
+.land-btn:hover {
+  background-color: darkslategrey;
+  transition: 0.2s ease-in;
+  color: white;
+  cursor: pointer;
+}
