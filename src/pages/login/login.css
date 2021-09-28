@@ -1,0 +1,35 @@
+.form-container {
+  margin: 27vh auto;
+  width: 20vw;
+}
+.log-bannar {
+  text-align: center;
+  background-color: #44eebb;
+  padding: 10px;
+  border: #2d9e7c solid 2px;
+}
+.form-input {
+  width: 100%;
+  border-radius: 0;
+  text-align: center;
+  height: 5vh;
+  margin-top: 0.5vh;
+  border: 2px solid #2d9e7c;
+  font-size: 1.3rem;
+}
+.text {
+  background-color: white;
+}
+.text:focus {
+  outline: none;
+}
+.form-btn {
+  background-color: #44eebb;
+  height: 7vh;
+  font-weight: 700;
+}
+.form-btn:hover {
+  background-color: #2d9e7c;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}

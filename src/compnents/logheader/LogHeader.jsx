@@ -13,7 +13,7 @@ export default function LogHeader() {
           <Link to="/login" className="list-link">
             <li className="nav-item">Login</li>
           </Link>
-          <Link to="/signup" className="list-link">
+          <Link to="/register" className="list-link">
             <li className="nav-item">Register</li>
           </Link>
         </ul>

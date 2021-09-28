@@ -1,9 +1,31 @@
 import React from "react";
-
-export default function Signup() {
+import LogHeader from "../../compnents/logheader/LogHeader";
+import "./signup.css";
+export default function Login() {
   return (
     <div>
-      <h1>Signup</h1>
+      <LogHeader />
+      <div className="form-container">
+        <h1 className="log-bannar">Sign Up</h1>
+        <form className="log-form">
+          <input
+            className="form-input text"
+            type="input"
+            placeholder="Username"
+          ></input>
+          <input
+            className="form-input text"
+            type="password"
+            placeholder="Password"
+          ></input>
+          <input
+            className="form-input text"
+            type="password"
+            placeholder="Confirm Password"
+          ></input>
+          <input className="form-input form-btn" type="submit"></input>
+        </form>
+      </div>
     </div>
   );
 }
