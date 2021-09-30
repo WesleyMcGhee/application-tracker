@@ -1,38 +1,55 @@
-.landingpage {
-  height: 70vh;
+.bannar {
+  font-size: 8rem;
+  text-align: center;
+  margin-top: 25vh;
+  color: #424242;
+}
+.display-container {
   display: flex;
   justify-content: center;
-
-  background-color: #44eebb;
 }
-.bannar-msg {
-  margin: 25vh;
-  text-align: center;
+.display {
+  z-index: 0;
+  height: 80vh;
+  width: 20vw;
+  background-color: #626262;
+  margin-top: 30vh;
+  margin-right: 4vw;
+  border-radius: 15px;
 }
-.bannar {
-  font-size: 5rem;
-  color: darkslategrey;
+.display:last-child {
+  margin-right: 0;
 }
-.caption {
-  font-size: 2.5rem;
-  color: darkslategrey;
-}
-.btn-div {
-  margin-top: 7vh;
-}
-.land-btn {
-  margin-right: 3vw;
-  margin-left: 3vw;
-  height: 6.5vh;
-  width: 9vw;
-  border: 3px solid darkslategrey;
-  background-color: #44eebb;
-  color: darkslategrey;
-  font-weight: 700;
-}
-.land-btn:hover {
-  background-color: darkslategrey;
-  transition: 0.2s ease-in;
+.table-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  border-radius: 15px;
+  font-size: 2rem;
   color: white;
-  cursor: pointer;
+  margin-bottom: 2vh;
+}
+.red {
+  background-color: #ff5252;
+}
+.blue {
+  background-color: #5983f0;
+}
+.green {
+  background-color: #7bb866;
+}
+.card {
+  height: 17%;
+  width: 90%;
+  margin: 1vh auto;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.job-title {
+  margin-top: 10%;
+}
+.employer {
+  margin-top: 1vh;
 }
