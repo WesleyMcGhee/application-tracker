@@ -1,6 +1,6 @@
 import React from "react";
 import LogHeader from "../../compnents/logheader/LogHeader";
-
+import { Link } from "react-router-dom";
 import "./landingpage.css";
 
 export default function LandingPage() {
@@ -58,6 +58,19 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+
+      <h1 className="slogan-header">
+        Making Job
+        <br />
+        Searching Easier
+      </h1>
+      <p className="slogan-text">
+        Job Tracker sole priority is to make the Job hunt easier, That's why we
+        will keep it simple, and listen to you for updates, and feautres.
+      </p>
+      <Link to="register" className="btn-link">
+        <button className="sign-btn">Sign-Up</button>
+      </Link>
     </div>
   );
 }
