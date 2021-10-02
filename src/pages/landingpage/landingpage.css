@@ -65,6 +65,10 @@
   margin: 2vh 20vw 2vh 20vw;
   color: #424242;
 }
+.sign-btn-container {
+  margin: 0 auto;
+  width: 10vw;
+}
 .sign-btn {
   height: 7vh;
   width: 10vw;
@@ -74,4 +78,16 @@
   color: #424242;
   font-weight: 100;
   font-size: 1.5rem;
+}
+.sign-btn:hover {
+  background-color: #424242;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-link-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 5vh 0 20vh 0;
 }

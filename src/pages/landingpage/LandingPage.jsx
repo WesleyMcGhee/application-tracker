@@ -65,12 +65,16 @@ export default function LandingPage() {
         Searching Easier
       </h1>
       <p className="slogan-text">
-        Job Tracker sole priority is to make the Job hunt easier, That's why we
-        will keep it simple, and listen to you for updates, and feautres.
+        Job Tracker sole priority is to make the job hunt easier, that's why
+        we'll keep it simple, and listen to you for updates, and features.
       </p>
-      <Link to="register" className="btn-link">
-        <button className="sign-btn">Sign-Up</button>
-      </Link>
+      <div className="btn-link-cont">
+        <div className="sign-btn-container">
+          <Link to="/register">
+            <button className="sign-btn">Sign-Up</button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
